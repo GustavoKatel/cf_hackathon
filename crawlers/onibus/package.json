@@ -1,0 +1,17 @@
+{
+  "name": "onibus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gustavokatel",
+  "license": "ISC",
+  "dependencies": {
+    "htmlparser2": "^3.8.3",
+    "pdf-text-extract": "^1.4.1",
+    "request": "^2.67.0",
+    "textract": "^1.1.2"
+  }
+}

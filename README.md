@@ -1,0 +1,5 @@
+# cf_hackathon
+
+App desenvolvido durante a Campus Festival Hackathon nos dias 21 e 22 de novembro de 2015.
+
+Nós da equipe Awaken, composta pelos membros Gustavo Sampaio, Afonso Maia e Igor Crispim, desenvolvemos um guia turístico da cidade de João Pessoa focando na mobilidade e na disponibilidade do turísta e dos pontos turísticos. O app consegue mostrar quais ônibus o usuário precisa pegar para chegar à um ponto turístico, saíndo de qualquer lugar da cidade. Os dados foram minerados a partir de dados fornecidos pela SEMOB-PB, em pdf para os itinerários e kml para as paradas dos ônibus. Também é apresentado à ideia de feedback para envolver os usuários com a cidade. Outro destaque no projeto foi a inclusão de QRCodes para identificar os pontos turísticos e facilitar o acesso aos turistas. O projeto foi desenvolvido com tecnologias web, como javascript, html e css, o app foi empacotado usando Phonegap e para o crawler dos itinerários foi utilizado NodeJS. O app contém cerca de 2000 linhas de código, incluíndo o crawler e não incluíndo bibliotecas de terceiros.

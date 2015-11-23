@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mapas</title>
+    <script src="js/jquery-2.1.4.min.js" charset="utf-8"></script>
+    <script src="js/lodash.min.js" charset="utf-8"></script>
+    <script src="js/fuse.min.js" charset="utf-8"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=false"></script>
+    <script src="js/maparota.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <maparota width="600px" height="400px" origin='-7.14023, -34.84523' id="mr1">
+
+      <marker lat="-7.14003" lng="-34.82523" img="https://maps.google.com/mapfiles/kml/shapes/schools_maps.png" title="Descrição"></marker>
+      <marker lat="-7.13003" lng="-34.82223" img="https://maps.google.com/mapfiles/kml/shapes/schools_maps.png" title="Descrição 2"></marker>
+
+    </maparota>
+
+    <button type="button" name="button" data-role="maparota-trace" data-target-map="mr1" data-target-lat="-7.1630837" data-target-lng="-34.8281386">Rota para Mangabeira Shopping!</button>
+
+  </body>
+</html>
